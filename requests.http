@@ -12,4 +12,7 @@ Content-Type: application/json
 }
 
 ### FIND ALL PEOPLE
-GET http://localhost:3000/person/
+GET http://localhost:3000/people/
+
+### FIND A PERSON By NAME 
+GET http://localhost:3000/person
