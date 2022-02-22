@@ -1,3 +1,3 @@
-import {app} from './server/server.ts';
+import { app } from "./server/server.ts";
 
-await app.listen({port: 3000})
+await app.listen({ port: 3000 });
