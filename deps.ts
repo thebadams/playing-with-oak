@@ -6,4 +6,6 @@ import {
 
 import { Bson, MongoClient } from "https://deno.land/x/mongo@v0.29.2/mod.ts";
 
-export { Application, Bson, Context, MongoClient, Router };
+import { config } from 'https://deno.land/x/dotenv@v0.5.0/mod.ts';
+
+export { Application, Bson, Context, MongoClient, Router, config };

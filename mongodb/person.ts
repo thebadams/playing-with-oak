@@ -7,6 +7,6 @@ interface PersonSchema {
   age: number;
 }
 
-const peopleCollection = db.collection<PersonSchema>("people");
+const personCollection = db.collection<PersonSchema>("people");
 
-export default peopleCollection;
+export default personCollection;
