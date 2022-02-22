@@ -7,9 +7,6 @@ POST http://localhost:3000/person/
 Content-Type: application/json
 
 {
-	"name": "Peter Robinson",
-	"age": 31
+	"name": "David Robinson",
+	"age": 30
 }
-
-### GET ALL PEOPLE
-GET http://localhost:3000/person
