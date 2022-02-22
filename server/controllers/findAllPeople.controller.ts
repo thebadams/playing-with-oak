@@ -5,7 +5,10 @@ export async function findAllPeople(ctx: Context) {
     const data = await personCollection.find({}).toArray();
 
     if (data) {
-      ctx.response.body = data;
+      ctx.response.body = {
+				data,
+				message: `Found ${data.length} Results`
+			};
       ctx.response.status = 200;
     }
   } catch (error) {
