@@ -1,0 +1,12 @@
+### GET Root
+GET http://localhost:3000/
+
+### CREATE PERSON
+
+POST http://localhost:3000/person/
+Content-Type: application/json
+
+{
+	"name": "David Robinson",
+	"age": 30
+}
